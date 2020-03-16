@@ -1,4 +1,4 @@
-# Project Title
+# Syn Flood
 
 Simple script for doing syn flood
 

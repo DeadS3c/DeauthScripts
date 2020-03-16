@@ -6,6 +6,12 @@ Simple script for doing rst hijack
 
 Grab the compiled file and execute with root to make a tcp-rst hijack to one ip, just use the bad_rst_hijack, the rst_hijack doesnt work properly
 
+Or grab the c file and compile yourself with something like this:
+
+```
+gcc $(libnet-config --defines) -o bad_rst_hijack bad_rst_hijack.c -lnet -lpcap
+```
+
 ### Prerequisites
 
 This scripts need C installed and the pcap and libnet libraries

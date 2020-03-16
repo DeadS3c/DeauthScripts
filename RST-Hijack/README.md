@@ -10,7 +10,7 @@ Grab the compiled file and execute with root to make a tcp-rst hijack to one ip,
 
 This scripts need C installed and the pcap and libnet libraries
 
-### Installing
+### Installing Dependencies
 
 It depends on your OS:
 
